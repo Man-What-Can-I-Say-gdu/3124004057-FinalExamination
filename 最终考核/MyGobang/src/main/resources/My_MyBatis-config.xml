@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <dataSource>
+        <!--获取驱动地址-->
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <!--数据库连接字符串-->
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/golanggamer?uerUnicode=true&amp;charterEncoding=utf-8&amp;serverTimezone=Asia/Shanghai"></property>
+        <!--账号-->
+        <property name="username" value="root"></property>
+        <!--密码-->
+        <property name="password" value="123456"></property>
+    </dataSource>
+    <!--存放mapper.xml路径-->
+    <mapper resource="mappers/UserMapper.xml"></mapper>
+</configuration>
